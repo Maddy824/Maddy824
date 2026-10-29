@@ -18,6 +18,16 @@ I like projects where AI, automation and a good UI meet, and where the whole thi
 
 Here to build useful stuff and keep the commit history somewhat explainable.
 
+<p align="center">
+  <img src="assets/stack.svg" alt="Python, TypeScript, JavaScript, React, Node.js, Docker, Kubernetes, Terraform, PyTorch, Git">
+</p>
+
+## 🚧 Currently
+
+- 🏘️ Making a town full of villagers gossip, then catching them out
+- 🧠 Running small language models locally, because my laptop deserves suffering too
+- 🏗️ Poking at BIM and CAD files to see what falls out
+
 ## 🔨 Things I've Built
 
 | Project | What it does |
@@ -32,8 +42,19 @@ More experiments and questionable engineering decisions live in my repositories.
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Maddy824&show_icons=true&theme=radical" alt="GitHub Stats" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maddy824&layout=compact&theme=radical" alt="Top Languages" height="170">
+  <img src="assets/stats.svg" alt="GitHub stats" width="400">
+  <img src="assets/langs.svg" alt="Top languages" width="400">
+</p>
+
+<sub>Home-made cards, refreshed daily by a GitHub Action. No third-party stats server, so nothing to break. Probably.</sub>
+
+## 🐍 My Contribution Graph, Being Eaten
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+    <img src="assets/snake.svg" alt="A snake eating my contribution graph">
+  </picture>
 </p>
 
 ## 🧪 How I Debug

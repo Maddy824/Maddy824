@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220" role="img" aria-label="git stats --me">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#1b1033"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" rx="14" fill="url(#bg)"/>
+  <text x="24" y="34" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#6272a4">$ git stats --me</text>
+  <g opacity="0" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15"><animate attributeName="opacity" from="0" to="1" begin="0.00s" dur="0.5s" fill="freeze"/><text x="24" y="70" fill="#f8f8f2">contributions (last year)</text><text x="376" y="70" fill="#ff6ac1" text-anchor="end" font-weight="700">536</text></g>
+  <g opacity="0" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.5s" fill="freeze"/><text x="24" y="100" fill="#f8f8f2">public repos</text><text x="376" y="100" fill="#8be9fd" text-anchor="end" font-weight="700">5</text></g>
+  <g opacity="0" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15"><animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.5s" fill="freeze"/><text x="24" y="130" fill="#f8f8f2">stars earned</text><text x="376" y="130" fill="#f1fa8c" text-anchor="end" font-weight="700">6</text></g>
+  <g opacity="0" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15"><animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.5s" fill="freeze"/><text x="24" y="160" fill="#f8f8f2">pull requests (last year)</text><text x="376" y="160" fill="#50fa7b" text-anchor="end" font-weight="700">2</text></g>
+  <g opacity="0" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.5s" fill="freeze"/><text x="24" y="190" fill="#f8f8f2">followers</text><text x="376" y="190" fill="#bd93f9" text-anchor="end" font-weight="700">5</text></g>
+</svg>
