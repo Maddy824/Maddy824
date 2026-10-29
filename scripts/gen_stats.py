@@ -31,12 +31,13 @@ query($login: String!) {
 }
 """
 
-BG = "#0d1117"
-BG2 = "#1b1033"
-MUTED = "#6272a4"
-TEXT = "#f8f8f2"
-ACCENTS = ["#ff6ac1", "#8be9fd", "#f1fa8c", "#50fa7b", "#bd93f9", "#ffb86c"]
+BG = "#070b1a"
+BG2 = "#0b2233"
+MUTED = "#5c6f91"
+TEXT = "#e6edf3"
+ACCENTS = ["#2de2e6", "#ff8a3d", "#fee440", "#9b5de5", "#f15bb5", "#00f5d4"]
 MONO = "ui-monospace,Menlo,Consolas,monospace"
+CARD_HEIGHT = 254  # both cards share it so they line up side by side
 
 
 def fetch(login: str, token: str) -> dict:
@@ -80,7 +81,7 @@ def stats_svg(user: dict) -> str:
     ]
     lines = []
     for i, (label, value) in enumerate(rows):
-        y = 70 + i * 30
+        y = 76 + i * 36
         delay = f"{0.15 * i:.2f}s"
         colour = ACCENTS[i % len(ACCENTS)]
         lines.append(
@@ -89,7 +90,7 @@ def stats_svg(user: dict) -> str:
             f'<text x="24" y="{y}" fill="{TEXT}">{escape(label)}</text>'
             f'<text x="376" y="{y}" fill="{colour}" text-anchor="end" font-weight="700">{value:,}</text></g>'
         )
-    return frame(400, 70 + len(rows) * 30, "git stats --me", "\n".join(lines))
+    return frame(400, CARD_HEIGHT, "git stats --me", "\n".join(lines))
 
 
 def langs_svg(user: dict, top: int = 6) -> str:
@@ -104,7 +105,7 @@ def langs_svg(user: dict, top: int = 6) -> str:
     for i, (name, size) in enumerate(ranked):
         pct = size / grand * 100
         y = 64 + i * 30
-        bar = max(4, 200 * size / ranked[0][1])
+        bar = max(4, 170 * size / ranked[0][1])
         delay = f"{0.15 * i:.2f}s"
         colour = ACCENTS[i % len(ACCENTS)]
         lines.append(
@@ -114,7 +115,7 @@ def langs_svg(user: dict, top: int = 6) -> str:
             f'<animate attributeName="width" from="0" to="{bar:.0f}" begin="{delay}" dur="0.8s" fill="freeze"/></rect>'
             f'<text x="376" y="{y + 12}" fill="{MUTED}" text-anchor="end">{pct:.1f}%</text></g>'
         )
-    return frame(400, 64 + len(ranked) * 30 + 10, "ls languages/", "\n".join(lines))
+    return frame(400, CARD_HEIGHT, "ls languages/", "\n".join(lines))
 
 
 def main() -> None:

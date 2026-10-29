@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Hi, I'm Madhav. I turn coffee into commits. Mostly." width="100%">
+  <img src="assets/header.svg" alt="A terminal builds madhav: 500+ contributions compiled, 0 bugs found (didn't look), then MADHAV SUNIL glitches onto the screen" width="100%">
 </p>
 
 # 👋 Hey there! I'm Madhav!
@@ -21,6 +21,20 @@ Here to build useful stuff and keep the commit history somewhat explainable.
 <p align="center">
   <img src="assets/stack.svg" alt="Python, TypeScript, JavaScript, React, Node.js, Docker, Kubernetes, Terraform, PyTorch, Git">
 </p>
+
+```ts
+// whoami.ts
+const madhav = {
+  role: "builds things, breaks them on purpose, fixes them faster",
+  stack: ["Python", "TypeScript", "React", "Docker", "Kubernetes", "PyTorch"],
+  superpowers: ["shipping on a deadline", "local LLMs on a laptop", "reading the error message"],
+  weaknesses: undefined, // couldn't reproduce
+  bugsInProduction: 0, // that I know of
+  coffeeLevel: () => Infinity,
+} as const;
+
+export default madhav; // ⭐ star a repo if this compiled in your head
+```
 
 ## 🚧 Currently
 
