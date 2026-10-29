@@ -4,7 +4,7 @@
 
 # 👋 Hey there! I'm Madhav!
 
-> I'm Just a ken.
+> I'm Just Ken.
 
 <p align="center">
   <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Cat furiously typing on a laptop, literally me" width="380">
