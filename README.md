@@ -62,14 +62,13 @@ More experiments and questionable engineering decisions live in my repositories.
 
 <sub>Home-made cards, refreshed daily by a GitHub Action. No third-party stats server, so nothing to break. Probably.</sub>
 
-## 🐍 My Contribution Graph, Being Eaten
+## 🫀 Dev Vitals
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
-    <img src="assets/snake.svg" alt="A snake eating my contribution graph">
-  </picture>
+  <img src="assets/vitals.svg" alt="A heart monitor drawn from my real contribution history: one spike per day I shipped something" width="100%">
 </p>
+
+<sub>Everyone has a snake eating their contribution graph. Mine is on life support. Regenerated daily from my real commits.</sub>
 
 ## 🧪 How I Debug
 
