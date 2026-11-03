@@ -47,6 +47,7 @@ export default madhav; // ⭐ star a repo if this compiled in your head
 | Project | What it does |
 | :--- | :--- |
 | [Rumourtown](https://github.com/Maddy824/Rumourtown) | A town of 36 villagers. Write a rumour, follow its journey, and build with local agent tools. |
+| [oracle-autopsy](https://github.com/Maddy824/oracle-autopsy) | An honest strategy tester for the Indian stock market, built after my old bot turned ₹10,000 into ₹1,60,000 on a market that never moved. Paper buy/sell alerts included. |
 | [ai-infra-generator](https://github.com/Maddy824/ai-infra-generator) | Point it at a repo and it generates Docker, Compose, Kubernetes, Helm, Terraform and CI/CD configs. |
 | [invi](https://github.com/Maddy824/invi) | Automated scraping for social platforms with structured data output. |
 | [DL-In-medic](https://github.com/Maddy824/DL-In-medic) | DermScreen AI: real-time skin-lesion screening from a phone camera, with risk assessment. |
