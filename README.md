@@ -6,6 +6,8 @@
 
 > I'm Just Ken.
 
+Software engineer in India. I build applied AI, developer tools and simulations, and I ship websites for clients.
+
 <p align="center">
   <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Cat furiously typing on a laptop, literally me" width="380">
 </p>
@@ -46,13 +48,20 @@ export default madhav; // ⭐ star a repo if this compiled in your head
 
 | Project | What it does |
 | :--- | :--- |
-| [Rumourtown](https://github.com/Maddy824/Rumourtown) | A town of 36 villagers. Write a rumour, follow its journey, and build with local agent tools. |
+| [Rumourtown](https://github.com/Maddy824/Rumourtown) | A town of 36 villagers. Write a rumour, follow it through friendships and grudges, and see why each villager believes it. [Play it](https://rumourtown.dev). |
 | [oracle-autopsy](https://github.com/Maddy824/oracle-autopsy) | An honest strategy tester for the Indian stock market, built after my old bot turned ₹10,000 into ₹1,60,000 on a market that never moved. Paper buy/sell alerts included. |
-| [ai-infra-generator](https://github.com/Maddy824/ai-infra-generator) | Point it at a repo and it generates Docker, Compose, Kubernetes, Helm, Terraform and CI/CD configs. |
-| [invi](https://github.com/Maddy824/invi) | Automated scraping for social platforms with structured data output. |
-| [DL-In-medic](https://github.com/Maddy824/DL-In-medic) | DermScreen AI: real-time skin-lesion screening from a phone camera, with risk assessment. |
+| [ai-infra-generator](https://github.com/Maddy824/ai-infra-generator) | Point it at a repo and it generates Docker, Compose, Kubernetes, Helm, Terraform and CI/CD configs. Works offline. |
+| [invi](https://github.com/Maddy824/invi) | Collects public YouTube, Instagram and X posts into JSON or CSV, with engagement and sentiment analytics. |
+| [DL-In-medic](https://github.com/Maddy824/DL-In-medic) | DermScreen: an educational skin-imaging project with a browser camera, a 3D-aware augmentation pipeline and a trainable classifier. Not a medical device. |
+| [Oryzen Clinic](https://oryzenclinic.com) | Client work: designed, built and launched the website for a multi-speciality clinic in Dubai. |
 
 More experiments and questionable engineering decisions live in my repositories.
+
+## 📫 Get in touch
+
+- Portfolio: [madhavsunil.com](https://madhavsunil.com)
+- LinkedIn: [madhav-sunil-5910b4220](https://www.linkedin.com/in/madhav-sunil-5910b4220)
+- Or open an issue on any of the repos above.
 
 ## 📊 GitHub Stats
 
